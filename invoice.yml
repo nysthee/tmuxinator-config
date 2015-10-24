@@ -1,7 +1,7 @@
-# ~/.tmuxinator/onduty.yml
+# ~/.tmuxinator/invoice.yml
 
-name: onduty
-root: ~/code/openminds/on-duty/
+name: invoice
+root: ~/code/openminds/invoicedonkey//
 
 # Optional tmux socket
 # socket_name: foo
