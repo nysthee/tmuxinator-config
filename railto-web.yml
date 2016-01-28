@@ -7,7 +7,7 @@ root: ~/code/rialto/rialto
 # socket_name: foo
 
 # Runs before everything. Use it to start daemons etc.
-# pre: brew services start mongodb
+pre: brew services start mongodb
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
 # pre_window: rbenv shell 2.0.0-p247
@@ -35,4 +35,3 @@ windows:
         -
   - guard: bundle exec guard
   - logs: tail -f log/development.log
-  - server: brails s
